@@ -18,7 +18,7 @@ const ProtectedRoute = ({ children }) => {
   } else {
     toast.error("Please login first.");
     navigate("/");
-    return null;
+    // return null;
   }
 };
 
