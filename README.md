@@ -1,31 +1,56 @@
-# React & Tailwind CSS Starter Pack
+# React JS Internship Assignment
 
-This is a starter pack for creating React projects with Tailwind CSS configured. It uses React version **18.2** and Tailwind CSS version **3.2**.
+Welcome to the repository for my React JS internship assignment. This project was created as a part of the internship application process for BWI Team.
 
-## Usage
+## Live Demo
 
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
+Check out the live demo of the assignment: [Task Live Link](https://task-bwi.vercel.app/)
 
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git
-    ```
+**Login Credentials:**
+- Username: kminchelle
+- Password: 0lelplR
 
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
+## Features Implemented
 
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
+1. **Login Process:**
+   - Implemented the login process using the provided [auth API](https://dummyjson.com/docs/auth).
+   - Saved the login token for authorization purposes.
 
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
+2. **Protected Home Page:**
+   - Made the home page a protected route, allowing only logged-in users.
 
-## Contributing
+3. **Product Fetching:**
+   - Fetched products from the [products API](https://dummyjson.com/docs/products) and displayed them on the home page.
 
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+4. **Search Functionality:**
+   - Added a search bar on the home page to search for products based on their names.
+
+5. **Filtering by Price:**
+   - Implemented a filter option on the home page to filter products based on their price.
+
+6. **Shopping Cart:**
+   - Created a shopping cart functionality.
+   - Displayed the cart count on the top along with the total amount.
+
+7. **Add to Cart Button:**
+   - Added an "Add to Cart" button on product cards.
+
+## How to Run Locally
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ghshivamkashyap/task-bwi.git
+
+Install dependencies:
+cd task-bwi
+npm install
+
+Start the development server:
+npm start
+
+Open your browser and navigate to http://localhost:3000
+
+Contributing
+Feel free to contribute or provide feedback by creating issues or pull requests.
